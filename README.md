@@ -10,7 +10,7 @@
 ### Projetos
 * [Menu Trigger](#id01)
 
-## <i> Menu Trigger <a name="id01"></a> </i>
+## <i> Menu Trigger <a name="id01"></a> </i> <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" width='30px' align="center"> <img src="https://img.icons8.com/color/48/000000/css3.png" width='30px' align="center">
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/84794798/151982515-913ab4ac-8773-47b5-ae44-b18f616a209e.jpg" alt="" width="60%" >
