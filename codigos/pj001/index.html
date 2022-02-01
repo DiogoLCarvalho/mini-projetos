@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Trigger - Examplo pratico</title>
+    <style>
+        body {
+            background: #f6f9fc;
+        }
+
+        .wrapper {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 60px 0px 40px 0;
+            font-size: 1.5em;
+            color: #687C93;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+
+        .lista-item {
+            background: white;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-shadow: 0px 2px 6px rgba(50, 50, 09, .1);
+        }
+
+        .faq-titulo {
+            cursor: pointer;
+            padding: 10px;
+            font-size: 1.4em;
+            font-family: monospace;
+            color: #8F6ED5;
+        }
+
+        .faq-titulo::before {
+            content: '';
+            display: inline-block;
+            height: 12px;
+            width: 24px;
+            margin-right: 10px;
+            background: #BEB0F4;
+        }
+
+        .faq-titulo::after {
+            content: ' + ';
+            float: right;
+            transition: transform .3s ease;
+        }
+
+        .faq-conteudo {
+            padding: 10px;
+            color: #6B7C93;
+            font-family: sans-serif;
+            font-size: .875em;
+            line-height: 1.4em;
+            display: none;
+        }
+
+        .trigger-input {
+            display: none;
+        }
+
+        /* Animação */
+        .trigger-input:checked+.trigger-wrapper .faq-conteudo {
+            display: block;
+        }
+
+        .trigger-input:checked+.trigger-wrapper .faq-titulo::after {
+            transform: rotate(45deg) scale(1.08);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Perguntas Frequentes </h1>
+
+        <div class="lista-item">
+            <!-- Cada id é importante pq cada item q ter um id unico -->
+            <input type="checkbox" name="checkbox" id="faq-titulo-1" class="trigger-input">
+
+            <div class="trigger-wrapper">
+                <label for="faq-titulo-1">
+                    <h2 class="faq-titulo">Certificado</h2>
+                </label>
+                <p class="faq-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit ut
+                    repellendus cumque quibusdam quod? Hic pariatur eligendi quasi, provident numquam ad, sunt,
+                    similique explicabo minus doloremque eveniet in obcaecati?</p>
+            </div>
+        </div>
+
+        <div class="lista-item">
+            <!-- Cada id é importante pq cada item q ter um id unico -->
+            <input type="checkbox" name="checkbox" id="faq-titulo-2" class="trigger-input">
+
+            <div class="trigger-wrapper">
+                <label for="faq-titulo-2">
+                    <h2 class="faq-titulo">Certificado</h2>
+                </label>
+                <p class="faq-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit ut
+                    repellendus cumque quibusdam quod? Hic pariatur eligendi quasi, provident numquam ad, sunt,
+                    similique explicabo minus doloremque eveniet in obcaecati?</p>
+            </div>
+        </div>
+        
+        <div class="lista-item">
+            <!-- Cada id é importante pq cada item q ter um id unico -->
+            <input type="checkbox" name="checkbox" id="faq-titulo-3" class="trigger-input">
+
+            <div class="trigger-wrapper">
+                <label for="faq-titulo-3">
+                    <h2 class="faq-titulo">Certificado</h2>
+                </label>
+                <p class="faq-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odit ut
+                    repellendus cumque quibusdam quod? Hic pariatur eligendi quasi, provident numquam ad, sunt,
+                    similique explicabo minus doloremque eveniet in obcaecati?</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
