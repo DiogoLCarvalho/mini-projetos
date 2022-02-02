@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&display=swap" rel="stylesheet">
+    <title>Dark Mode</title>
+</head>
+
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <p><a href="#">Lorem ipsum dolor sit,</a> amet consectetur adipisicing elit. Accusantium pariatur veniam assumenda, vitae dolor voluptatibus unde, doloremque deleniti reprehenderit sit facere quas saepe. Excepturi quas aliquid, at voluptatum officia beatae?</p>
+
+    <label for="trocar">
+        <input type="checkbox" id="trocar">Dark Mode
+    </label>
+
+    <script>
+        const html = document.querySelector('html');
+        const checkbox = document.querySelector('#trocar');
+        checkbox.addEventListener('click',function () {
+            html.classList.toggle('dark-mode');
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+:root{
+    --body-bg:#fafafa;
+    --body-color:#555;
+    --link-color:#222;
+    --link-color-hover:#ec5840;
+}
+
+.dark-mode:root{
+    --body-bg:#212529;
+    --body-color:#899095;
+    --link-color:#dee2e6;
+    --link-color-hover:#3cc368;
+}
+* {
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--body-bg);
+    color:#555;
+    padding: 20px;
+}
+a{
+    color: var(--link-color);
+}
+a:hover{
+    color: var(--link-color-hover);
+}
