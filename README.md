@@ -10,6 +10,7 @@
 ### Projetos
 * [Menu Trigger](#id01)
 * [Modo Escuro](#id02)
+* [Zoom](#id03)
 
 ## <i> Menu Trigger <a name="id01"></a> </i> <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" width='30px' align="center"> <img src="https://img.icons8.com/color/48/000000/css3.png" width='30px' align="center">
 
@@ -87,3 +88,22 @@ checkbox.addEventListener('click',function () {
 A classe aplicada no <i>JavaScript</i> precisa ser a mesma no CSS. 
 
 </p>
+
+<!-- ============================================================= NOVO PROJETO ================================================================ -->
+
+## <i> Efeito de Zoom <a name="id03"></a> </i> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"  width='30px' align="center" /> <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" width='30px' align="center"> <img src="https://img.icons8.com/color/48/000000/css3.png" width='30px' align="center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
