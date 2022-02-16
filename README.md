@@ -93,16 +93,48 @@ A classe aplicada no <i>JavaScript</i> precisa ser a mesma no CSS.
 
 ## <i> Efeito de Zoom <a name="id03"></a> </i> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"  width='30px' align="center" /> <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" width='30px' align="center"> <img src="https://img.icons8.com/color/48/000000/css3.png" width='30px' align="center">
 
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/84794798/154330737-31ba5a84-b162-4942-9081-931f9224847b.gif" alt="" width="60%" >
+</p>
+
+<h4 align='right'>
+
+[Código completo](https://github.com/DiogoLCarvalho/mini-projetos/tree/main/codigos/pj003) 
+ 
+</h4>
 
 
+### Explicação Geral
+
+<p  'align= justify'>
+ 
+O efeito utiliza uma biblioteca externa. Para o efeito funcionar é preciso instalar um arquivo com o código (medium-zoom.min.js) e é preciso identificar o elemento, por uma classe ou id.
+
+</p>
+
+```html
+<script src="js/medium-zoom.min.js"></script>
+<script src="js/main.js"></script>
+```
+
+<p  'align= justify'>
+ 
+O <i>.img01</i> é a classe da imagem do <i>HTML</i> no qual o efeito vai ser aplicado. É possível modificar o efeito do zoom.
+
+* Margin é a ampliação da imagem
+* Background muda a cor do fundo
+* ScrollOffset número de pixels que é preciso para tirar o efeito de zoom
 
 
+</p>
 
-
-
-
-
-
+```js
+mediumZoom('.img01', {
+    margin: 50,
+    scrollOffset: 1000,
+    background: '#515155'
+});
+```
 
 
 
