@@ -136,6 +136,11 @@ mediumZoom('.img01', {
 });
 ```
 
+#### Crédito do efeito :exclamation:
+
+<p  'align= justify'>
+ https://github.com/francoischalifour/medium-zoom#api
+</p>
 
 
 
