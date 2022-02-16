@@ -94,8 +94,9 @@ A classe aplicada no <i>JavaScript</i> precisa ser a mesma no CSS.
 ## <i> Efeito de Zoom <a name="id03"></a> </i> <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"  width='30px' align="center" /> <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" width='30px' align="center"> <img src="https://img.icons8.com/color/48/000000/css3.png" width='30px' align="center">
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/84794798/154330737-31ba5a84-b162-4942-9081-931f9224847b.gif" alt="" width="60%" >
+   <img src="https://user-images.githubusercontent.com/84794798/154336048-854a5e5b-56bd-4e3d-a23c-151f410a5211.gif" alt="" width="60%" >
 </p>
+
 
 <h4 align='right'>
 
