@@ -28,7 +28,7 @@
 
 <p  'align= justify'>
  
-A ideia é apenas usar CSS. Utilizando a interação entre <i>input</i> e <i>label</i> do HTML. O <i>input</i> ficará invisível dentro de uma <i>div</i>. Ele precisará ter um <i>id</i> idêntico ao <i>for</i> da <i>label</i> para criar a interação. Ao clicar no <i>label</i> o <i>input</i> é acionado. Com isso o CSS faz o resto do trabalho <img src="https://c.tenor.com/Iv28avwJBSgAAAAj/oh-yeah-pikachu.gif" width="50px"  align="center">
+A ideia é apenas usar CSS. Utilizando a interação entre <i>input</i> e <i>label</i> do HTML. O <i>input</i> ficará invisível dentro de uma <i>div</i>. Ele precisará ter um <i>id</i> idêntico ao <i>for</i> da <i>label</i> para criar a interação. Ao clicar no <i>label</i> o <i>input</i> é acionado. Com isso o CSS faz o resto do trabalho <img src="https://c.tenor.com/Iv28avwJBSgAAAAj/oh-yeah-pikachu.gif" width="6%"  align="center">
 
 </p>
 
